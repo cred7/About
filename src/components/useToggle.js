@@ -10,4 +10,6 @@ export const useToggle = (initialVal = false) => {
 };
 
 // updated on git
-// second ubdate on the original branch
+// second update on the original branch
+//   //   isLoading,
+//   //   error,
