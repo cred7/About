@@ -14,6 +14,7 @@ home
 dist-ssr
 *.local
 Trial.jsx
+Trials.jsx
 Button.jsx
 useToggle.js
 
