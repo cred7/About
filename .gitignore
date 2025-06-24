@@ -13,6 +13,9 @@ secrets
 home
 dist-ssr
 *.local
+Trial.jsx
+Button.jsx
+useToggle.js
 
 # Editor directories and files
 .vscode/*
