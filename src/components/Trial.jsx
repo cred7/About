@@ -24,6 +24,10 @@ export const Trial = (props) => {
       });
   }, []);
 
+  const change = (e) => setupdate(e.target.value);
+  const [update, setupdate] = useState("");
+  // const [visible, toggle] = useToggle();
+
   const handlechange = (e) => {
     settodo(e.target.value);
   };
