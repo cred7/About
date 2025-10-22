@@ -16,7 +16,7 @@ export const Navbar = () => {
 
   useEffect(() => {
     const handlescroll = () => {
-      setIsscrolled(window.screenY > 10);
+      setIsscrolled(window.screenX > 10);
     };
     window.addEventListener("scroll", handlescroll);
     return () => window.removeEventListener("scroll", handlescroll);
@@ -26,7 +26,7 @@ export const Navbar = () => {
     <nav
       className={cn(
         "fixed w-full z-40 transition-all duration-300 ",
-        isScrolled ? "py-3 bg-primary  m-1" : "py-5"
+        isScrolled ? "py-3 bg-red-400 m-1" : "py-5 "
       )}
     >
       <div className="container flex items-center justify-between">
@@ -35,7 +35,13 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground">Cj's</span> Portfolio
+            <span
+              className="text-glow text-blue-400
+            "
+            >
+              Cj's
+            </span>{" "}
+            Portfolio
           </span>
         </a>
         {/* {mobile nav} */}
@@ -49,7 +55,7 @@ export const Navbar = () => {
         </button>
         <div
           className={cn(
-            "fixed inset-0 bg-background/5 backdrop-blur-md z-40 flex-col items-center justify-content",
+            "fixed inset-0 bg-red-400 backdrop-blur-md z-40 flex-col items-center justify-content",
             "transition-all duration-300 pt-40 md:hidden",
             isMenu
               ? "opacity-100 pointer-events-auto"

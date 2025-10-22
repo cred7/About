@@ -4,22 +4,22 @@ import { cn } from "../lib/utils";
 const skills = [
   //frontend
   { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "Javascript", level: 80, category: "frontend" },
-  { name: "React", level: 60, category: "frontend" },
-  { name: "Typescript", level: 0, category: "frontend" },
-  { name: "Tailwind CSS", level: 40, category: "frontend" },
+  { name: "Javascript", level: 70, category: "frontend" },
+  { name: "React", level: 70, category: "frontend" },
+  { name: "Typescript", level: 70, category: "frontend" },
+  { name: "Tailwind CSS", level: 70, category: "frontend" },
   { name: "Next.js", level: 90, category: "frontend" },
   //Backend
-  { name: "Node.js", level: 30, category: "backend" },
-  { name: "Express", level: 10, category: "backend" },
-  { name: "MongoDB", level: 0, category: "backend" },
-  { name: "PostgreSQL", level: 0, category: "backend" },
+  { name: "Node.js", level: 70, category: "backend" },
+  { name: "Express", level: 70, category: "backend" },
+  { name: "MongoDB", level: 60, category: "backend" },
+  { name: "PostgreSQL", level: 40, category: "backend" },
   { name: "GraphQL", level: 0, category: "backend" },
 
   //Tools
   { name: "Git/Github", level: 40, category: "tools" },
-  { name: "Docker", level: 0.1, category: "tools" },
-  { name: "Figma", level: 0.8, category: "tools" },
+  { name: "Docker", level: 30, category: "tools" },
+  // { name: "Figma", level: 0.8, category: "tools" },
   { name: "Vs Code", level: 70, category: "tools" },
 ];
 
@@ -67,7 +67,7 @@ export const SkillsSection = () => {
               </div>
               <div className="w-full bg-secondary h-2 rounded-full overflow-hidden">
                 <div
-                  className="bg-primary h-2 rounde-full origin-left animate-[grow_1.5s_ease-out]"
+                  className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
                   style={{ width: skills.level + "%" }}
                 />
               </div>

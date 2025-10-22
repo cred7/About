@@ -1,7 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createContext, useState } from "react";
 import { AboutSection } from "../components/AboutSection";
-import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
 import { HeroSection } from "../components/HeroSection";
 import { Navbar } from "../components/Navbar";
@@ -36,7 +35,7 @@ export default function Home() {
             <AboutSection />
             <SkillsSection />
             <ProjectsSection />
-            <Contact />
+            {/* <Contact /> */}
           </main>
           {/* {Footer} */}
           <Footer />

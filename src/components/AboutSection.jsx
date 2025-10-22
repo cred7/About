@@ -1,5 +1,3 @@
-import { Briefcase, Code, User } from "lucide-react";
-
 export const AboutSection = () => {
   return (
     <section id="about" className="container mx-auto max-w-5xl">
@@ -9,35 +7,36 @@ export const AboutSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <h3 className="text-2xl font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Software Developer Learner witha an Engineering background
           </h3>
           <p className="text-muted-foreground">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa
-            esse nesciunt! Explicabo doloremque quod totam molestiae rem minus
-            incidunt reiciendis tenetur rerum laboriosam, dicta hic dolor
-            voluptatibus esse deserunt.
+            I hold a degree in Aerospace Engineering, where I developed a strong
+            foundation in mathematics, problem-solving, and analytical thinking.
+            Over time, I have cultivated a deep interest in software engineering
+            and am currently transitioning into the field, combining my
+            technical background with a passion for building innovative software
+            solutions.
           </p>
-          <p className="text-muted-foreground">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            saepe, nostrum expedita illum nemo esse. Quas iure repellat ea autem
-            dolorem, ipsam nobis sint harum aliquid nisi, nihil fugiat
-            assumenda.
-          </p>
+
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-            <a href="#contact" className="cosmic-button">
-              {" "}
-              Get in touch
-            </a>
             <a
+              href="https://mail.google.com/mail/?view=cm&to=omondielvis.owuor@gmail.com"
+              className="cosmic-button"
+            >
+              {" "}
+              Get in touch : omondielvis.owuor@gmail.com
+            </a>
+            {/* <a
               href="#contact"
+              onCopy={}
               className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
             >
               {" "}
               Get in touch
-            </a>
+            </a> */}
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-6">
+        {/* <div className="grid grid-cols-1 gap-6">
           <div className="gradient-border p-6 card-hover">
             <div className="flex items-start gap-4">
               <div className="p-3 rounded-full bg-primary/10">
@@ -71,7 +70,7 @@ export const AboutSection = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

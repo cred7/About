@@ -17,7 +17,7 @@ export const Contact = () => {
   const [issubmitting, setissubmitting] = useState(false);
 
   const schema = yup.object().shape({
-    fullName: yup.string().required("yuor full name is required"),
+    fullName: yup.string().required("your full name is required"),
     email: yup.string().email().required("email is required"),
     message: yup.string().required("enter a message"),
   });
@@ -25,7 +25,7 @@ export const Contact = () => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm({ resolver: yupResolver(schema) });
 
   const handlesubmits = (e) => {
     // e.preventDefault();

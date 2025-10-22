@@ -3,39 +3,31 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS landing page",
-    description: "A beautiful landing page app using React and Tailwind",
+    title: "My profile",
+    description:
+      "A profile page displaying personal details, background, and contact created app using React and Tailwind",
     image: "/project1.jpg",
     tags: ["React", "TailwindCSS", "Supabase"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/cred7",
   },
   {
     id: 2,
     title: "SaaS landing page",
-    description: "A beautiful landing page app using React and Tailwind",
+    description: "A back end authentication service created using express.js",
     image: "/project2.jpg",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Express.js"],
+    demoUrl: "https://github.com/cred7",
+    githubUrl: "https://github.com/cred7",
   },
   {
     id: 3,
     title: "SaaS landing page",
-    description: "A beautiful landing page app using React and Tailwind",
+    description: "A  functional website for Gor mahia Football club",
     image: "/project3.jpg",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 4,
-    title: "SaaS landing page",
-    description: "A beautiful landing page app using React and Tailwind",
-    image: "/project4.jpg",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["TailwindCSS", "Next", "postgresql"],
+    demoUrl: "https://github.com/cred7",
+    githubUrl: "https://github.com/cred7",
   },
 ];
 export const ProjectsSection = () => {
@@ -46,6 +38,14 @@ export const ProjectsSection = () => {
           {" "}
           Featured <span className="text-primary">Projects</span>
         </h2>
+        {/* <span className="text-background">span</span>
+        <br />
+        <span className="text-foreground">span</span>
+        <br />
+        <span className="text-primary">span</span>
+        <br />
+        <span className="text-primary-foreground">span</span>
+        <br /> */}
         <p className="text-center text-muted-foreground max-w-2xl mx-auto">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
           repellendus facilis provident sapiente et ?
@@ -102,7 +102,7 @@ export const ProjectsSection = () => {
         </div>
         <div className="text-center mt-12">
           <a
-            href="3"
+            href="https://github.com/cred7"
             target="_blank"
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
           >

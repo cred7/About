@@ -4,10 +4,10 @@ export const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center px-4"
+      className="relative min-h-[50vh] flex flex-col items-center justify-start px-4 mb-15"
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
-        <div className="space-y-6">
+        <div className="space-y-1">
           <h1 className="text-4xl md:txt-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in">Hi, I'm</span>{" "}
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
@@ -18,16 +18,16 @@ export const HeroSection = () => {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
-            alias dolorem consequatur libero repellendus voluptate non deleniti
-            aut nobis in dolore, architecto unde vero aliquam veritatis nulla
-            corporis delectus? A.
+            A motivated software engineering intern with a background in
+            aerospace engineering, combining strong analytical skills and
+            technical problem-solving with a growing passion for developing
+            innovative software solutions.
           </p>
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
+            {/* <a href="#projects" className="cosmic-button">
               {" "}
               view my work
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
