@@ -1,3 +1,5 @@
+import { Briefcase, Code, User } from "lucide-react";
+
 export const AboutSection = () => {
   return (
     <section id="about" className="container mx-auto max-w-5xl">
@@ -7,13 +9,13 @@ export const AboutSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <h3 className="text-2xl font-semibold">
-            Software Developer Learner witha an Engineering background
+            Software Developer Learner with an Engineering background.
           </h3>
           <p className="text-muted-foreground">
             I hold a degree in Aerospace Engineering, where I developed a strong
             foundation in mathematics, problem-solving, and analytical thinking.
             Over time, I have cultivated a deep interest in software engineering
-            and am currently transitioning into the field, combining my
+            and Iam currently transitioning into the field, combining my
             technical background with a passion for building innovative software
             solutions.
           </p>
@@ -28,7 +30,6 @@ export const AboutSection = () => {
             </a>
             {/* <a
               href="#contact"
-              onCopy={}
               className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
             >
               {" "}
@@ -36,7 +37,7 @@ export const AboutSection = () => {
             </a> */}
           </div>
         </div>
-        {/* <div className="grid grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 gap-6">
           <div className="gradient-border p-6 card-hover">
             <div className="flex items-start gap-4">
               <div className="p-3 rounded-full bg-primary/10">
@@ -44,7 +45,7 @@ export const AboutSection = () => {
               </div>
               <div className="text-left">
                 <h4 className="font-semibold text-lg">Web Development</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur</p>
+                {/* <p>Lorem ipsum dolor, sit amet consectetur</p> */}
               </div>
             </div>
           </div>
@@ -55,7 +56,7 @@ export const AboutSection = () => {
               </div>
               <div className="text-left">
                 <h4 className="font-semibold text-lg">Web Development</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur</p>
+                {/* <p>Lorem ipsum dolor, sit amet consectetur</p> */}
               </div>
             </div>
           </div>
@@ -66,11 +67,11 @@ export const AboutSection = () => {
               </div>
               <div className="text-left">
                 <h4 className="font-semibold text-lg">Web Development</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur</p>
+                {/* <p>Lorem ipsum dolor, sit amet consectetur</p> */}
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );

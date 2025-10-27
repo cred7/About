@@ -39,7 +39,7 @@ export const Navbar = () => {
               className="text-glow text-blue-400
             "
             >
-              Cj's
+              EO's
             </span>{" "}
             Portfolio
           </span>

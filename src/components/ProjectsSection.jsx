@@ -13,7 +13,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "SaaS landing page",
+    title: "A simple back end authentication",
     description: "A back end authentication service created using express.js",
     image: "/project2.jpg",
     tags: ["Express.js"],
@@ -22,8 +22,8 @@ const projects = [
   },
   {
     id: 3,
-    title: "SaaS landing page",
-    description: "A  functional website for Gor mahia Football club",
+    title: "Football club Website",
+    description: "A simple functional website for Gor mahia Football club",
     image: "/project3.jpg",
     tags: ["TailwindCSS", "Next", "postgresql"],
     demoUrl: "https://github.com/cred7",
@@ -47,10 +47,9 @@ export const ProjectsSection = () => {
         <span className="text-primary-foreground">span</span>
         <br /> */}
         <p className="text-center text-muted-foreground max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-          repellendus facilis provident sapiente et ?
+          projects
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
           {projects.map((proj, key) => (
             <div
               key={key}

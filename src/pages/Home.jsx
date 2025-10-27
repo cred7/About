@@ -29,7 +29,7 @@ export default function Home() {
           <Navbar />
           {/* {Main Content} */}
           <main>
-            <h1 className="bg-primary">{name}</h1>
+            {/* <h1 className="bg-primary">{name}</h1> */}
             <Trials />
             <HeroSection />
             <AboutSection />
