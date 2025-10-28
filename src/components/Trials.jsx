@@ -67,7 +67,7 @@ export const Trials = () => {
 
   return (
     <div className="py-24 px-6 relative ">
-      <div className="max-w-6xl max-auto comntainer bg-card m-2 py-6 px-7 gap-y-3">
+      <div className="max-w-6xl max-auto container bg-card m-2 py-6 px-7 gap-y-3">
         {/* (isLoading?<h1>Loading.,......</h1>) */}
         <h1 className=" font-bold text-center mb-4 mt-4">
           {cat?.fact}
