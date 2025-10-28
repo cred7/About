@@ -14,7 +14,7 @@ home
 dist-ssr
 *.local
 src/components/Trial.jsx
-src/components/Trials.jsx
+
 src/components/Buttons.jsx
 src/hooks/useToggle.js
 
